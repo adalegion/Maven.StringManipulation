@@ -19,7 +19,7 @@ public class StringManipulation {
    }
 
    public static String concatenate(String input1, String input2) {
-      return input1.concat(input2);
+      return null;
    }
 
    public static String trim(String input) {
