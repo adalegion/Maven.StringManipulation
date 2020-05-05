@@ -22,10 +22,10 @@ public class StringManipulationSubString {
    @Test
    public void subStringTest1() {
       // : Given
-      String expected = "The";
       String input = "The legion is here.";
       Integer startIndex = 0;
       Integer endIndex = 3;
+      String expected = "The";
       test(expected, input, startIndex, endIndex);
    }
 
@@ -33,10 +33,10 @@ public class StringManipulationSubString {
    @Test
    public void subStringTest2() {
       // : Given
-      String expected = "The ";
       String input = "The legion is here.";
       Integer startIndex = 0;
       Integer endIndex = 4;
+      String expected = "The ";
       test(expected, input, startIndex, endIndex);
    }
 
@@ -44,8 +44,8 @@ public class StringManipulationSubString {
    @Test
    public void subStringTest3() {
       // : Given
-      String expected = "legion";
       String input = "The legion is here.";
+      String expected = "legion";
       Integer startIndex = 4;
       Integer endIndex = startIndex + 6;
       test(expected, input, startIndex, endIndex);

@@ -15,6 +15,15 @@
 * Propósito 
   * Familiarizarse con los métodos más comunes para la manipulación de strings en JAVA.
 
+* NOTA: 
+  * Fork el repositorio a tu cuenta de GitHub.
+  * Clona tu repositorio del paso anterior (**fork**) a tu máquina local (PC o Mac)
+  * Ve completando el proyecto y sube tus cambios a tu repositorio usando:
+    * ```git add``` para añadir tus cambios
+    * ```git commit``` para ponerle mensaje a tus archivos modificados
+    * ```git push``` para subir esas modificaciones a tu GitHub
+  * Al terminar tu proyecto haz un ```pull request``` para compararlo con el ```master``` de Adalegion 
+
 <br><br>
 ## `Integer lengthOfAString(String input)`
 * Descripción

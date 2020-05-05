@@ -11,9 +11,9 @@ public class StringManipulationEquals {
    @Test
    public void testEqualsTest0() {
       // : Given
-      String expected = "";
       String input1 = "";
       String input2 = "";
+      String expected = "";
       test(expected, input1, input2);
    }
 
@@ -21,9 +21,9 @@ public class StringManipulationEquals {
    @Test
    public void testEqualsTest1() {
       // : Given
-      String expected = "ABC";
       String input1 = "ABC";
       String input2 = "ABC";
+      String expected = "ABC";
       test(expected, input1, input2);
    }
 
@@ -32,9 +32,9 @@ public class StringManipulationEquals {
    @Test
    public void testEqualsTest2() {
       // : Given
-      String expected = "1010";
       String input1 = "1010";
       String input2 = "1010";
+      String expected = "1010";
       test(expected, input1, input2);
    }
 

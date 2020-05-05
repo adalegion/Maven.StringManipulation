@@ -11,8 +11,8 @@ public class StringManipulationLength {
    @Test
    public void lengthOfAStringTest0() {
       // : Given
-      Integer expected = 1;
       String input = "A";
+      Integer expected = 1;
       test(expected, input);
    }
 
@@ -20,8 +20,8 @@ public class StringManipulationLength {
    @Test
    public void lengthOfAStringTest1() {
       // : Given
-      Integer expected = 0;
       String input = "";
+      Integer expected = 0;
       test(expected, input);
    }
 
@@ -29,8 +29,8 @@ public class StringManipulationLength {
    @Test
    public void lengthOfAStringTest2() {
       // : Given
-      Integer expected = 3;
       String input = "ABC";
+      Integer expected = 3;
       test(expected, input);
    }
 
@@ -38,8 +38,8 @@ public class StringManipulationLength {
    @Test
    public void lengthOfAStringTest3() {
       // : Given
-      Integer expected = 9;
       String input = "Adalegion";
+      Integer expected = 9;
       test(expected, input);
    }
 

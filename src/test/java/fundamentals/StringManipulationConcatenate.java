@@ -11,9 +11,9 @@ public class StringManipulationConcatenate {
    @Test
    public void concatenateTest0() {
       // : Given
-      String expected = "AB";
       String input1 = "A";
       String input2 = "B";
+      String expected = "AB";
       test(expected, input1, input2);
    }
 
@@ -23,9 +23,9 @@ public class StringManipulationConcatenate {
    @Test
    public void concatenateTest1() {
       // : Given
-      String expected = "The legion is here.Together we are stronger.";
       String input1 = "The legion is here.";
       String input2 = "Together we are stronger.";
+      String expected = "The legion is here.Together we are stronger.";
       test(expected, input1, input2);
    }
 
@@ -33,9 +33,9 @@ public class StringManipulationConcatenate {
    @Test
    public void concatenateTest2() {
       // : Given
-      String expected = "¯\\_( ͡• ͜ʖ ͡•)_/¯";
       String input1 = "¯\\_( ͡• ͜ʖ";
       String input2 = " ͡•)_/¯";
+      String expected = "¯\\_( ͡• ͜ʖ ͡•)_/¯";
       test(expected, input1, input2);
    }
 

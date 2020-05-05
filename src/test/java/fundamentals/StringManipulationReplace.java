@@ -13,10 +13,10 @@ public class StringManipulationReplace {
    @Test
    public void replaceTest0() {
       // Given :
-      String expected = "AAA";
       String input = "AaA";
       String target = "a";
       String replacement = "A";
+      String expected = "AAA";
       test(expected, input, target, replacement);
    }
 
@@ -24,9 +24,9 @@ public class StringManipulationReplace {
    @Test
    public void replaceTest1() {
       // Given :
+      String input = "-0-";
       String expected = "-x-";
-      String input = "-*-";
-      String target = "\\*";
+      String target = "0";
       String replacement = "x";
       test(expected, input, target, replacement);
    }
@@ -35,8 +35,8 @@ public class StringManipulationReplace {
    @Test
    public void replaceTest2() {
       // Given :
-      String expected = "-x-x-x-";
       String input = "-1-2-3-";
+      String expected = "-x-x-x-";
       String target = "\\d";
       String replacement = "x";
       test(expected, input, target, replacement);

@@ -11,8 +11,8 @@ public class StringManipulationCasing {
    @Test
    public void toLowerCaseTest0() {
       // : Given
-      String expected = "a";
       String input = "A";
+      String expected = "a";
       test(expected, input);
    }
 
@@ -20,8 +20,8 @@ public class StringManipulationCasing {
    @Test
    public void toLowerCaseTest1() {
       // : Given
-      String expected = "THE LEGION IS HERE.";
-      String input = "the legion is here.";
+      String input = "THE LEGION IS HERE.";
+      String expected = "the legion is here.";
       test(expected, input);
    }
 
@@ -29,8 +29,8 @@ public class StringManipulationCasing {
    @Test
    public void toUpperCaseTest0() {
       // : Given
-      String expected = "A";
       String input = "a";
+      String expected = "A";
       test1(expected, input);
    }
 
@@ -38,8 +38,8 @@ public class StringManipulationCasing {
    @Test
    public void toUpperCaseTest1() {
       // : Given
-      String expected = "The legion is here.";
-      String input = "THE LEGION IS HERE.";
+      String input = "The legion is here.";
+      String expected = "THE LEGION IS HERE.";
       test1(expected, input);
    }
 
