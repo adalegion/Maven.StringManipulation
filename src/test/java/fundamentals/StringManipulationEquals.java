@@ -9,41 +9,62 @@ public class StringManipulationEquals {
 
    /** Con dos string vacios al compararlos deberiamos de obtener un true */
    @Test
-   public void testEqualsTest0() {
+   public void testEqualsTest0True() {
       // : Given
       String input1 = "";
       String input2 = "";
-      String expected = "";
-      test(expected, input1, input2);
+      testTrue(input1, input2);
    }
 
    /** Dos string iguales como "ABC" tambien deberiamos tener true */
    @Test
-   public void testEqualsTest1() {
+   public void testEqualsTest1True() {
       // : Given
       String input1 = "ABC";
       String input2 = "ABC";
-      String expected = "ABC";
-      test(expected, input1, input2);
+      testTrue(input1, input2);
    }
 
 
    /** Los string pueden ser letras, simbolos o números. En este caso usamos el número 1010 */
    @Test
-   public void testEqualsTest2() {
+   public void testEqualsTest2True() {
       // : Given
       String input1 = "1010";
       String input2 = "1010";
-      String expected = "1010";
-      test(expected, input1, input2);
+      testTrue(input1, input2);
    }
 
-   private void test(String expected, String input1, String input2) {
+   @Test
+   public void testEqualsTest0False() {
+      // : Given
+      String input1 = "";
+      String input2 = " ";
+      testFalse(input1, input2);
+   }
+
+   @Test
+   public void testEqualsTest1False() {
+      // : Given
+      String input1 = "ABC";
+      String input2 = "abc";
+      testFalse(input1, input2);
+   }
+
+   private void testTrue(String input1, String input2) {
       // : When
       Boolean actual = StringManipulation.equals(input1, input2);
 
       //: Then
-      Assert.assertTrue(actual);
+      Assert.assertEquals(true, actual);
+   }
+
+   private void testFalse(String input1, String input2) {
+      // : When
+      Boolean actual = StringManipulation.equals(input1, input2);
+
+      //: Then
+      Assert.assertEquals(false, actual);
    }
 
 

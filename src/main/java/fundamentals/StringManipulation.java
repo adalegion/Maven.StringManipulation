@@ -38,4 +38,12 @@ public class StringManipulation {
       return null;
    }
 
+   public static Boolean startsWith(String input, String prefix) {
+      return null;
+   }
+
+   public static Boolean isEmpty(String input) {
+      return null;
+   }
+
 }
